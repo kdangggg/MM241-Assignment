@@ -29,7 +29,7 @@ class Policy:
 
         return np.all(stock[pos_x : pos_x + prod_w, pos_y : pos_y + prod_h] == -1)
 
-class Policy2311650(Policy):
+class Policy2311650_2311538_2311486(Policy):
     def __init__(self, policy_id):
         assert policy_id in [1, 2], "Policy ID must be 1 or 2"
 
